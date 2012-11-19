@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/theme_very_dark_grey">
+
+
+
+    <LinearLayout
+        android:id="@+id/HeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp" android:background="@drawable/dark_bg_theme_normal">
+
+
+        <TextView
+            android:id="@+id/textPaletteInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Fake Palette 1"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:background="@drawable/dark_fg_theme_normal" android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textInfoBlock1"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="#222222"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:background="@drawable/dark_fg_theme_normal"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ContainerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="25">
+
+        <LinearLayout
+            android:id="@+id/ColorWheelViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/theme_very_dark_grey"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" android:padding="5dp">
+
+                <buxburt.anddev.colorharmonizer.ColorWheelView
+                    android:id="@+id/colorWheelViewMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" android:background="@color/theme_very_dark_grey"/>
+
+                <Button
+                    android:id="@+id/wheelSettingsButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/harmonize_button"
+                    android:textColor="@color/theme_grey" />
+
+                <Button
+                    android:id="@+id/buttonRemoveSwatch"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/remove_swatch"
+                    android:textColor="@color/theme_grey" />
+
+                <Button
+                    android:id="@+id/buttonAddSwatch"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/add_swatch" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ValueSliderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp" android:background="@drawable/dark_bg_theme_normal">
+
+
+
+
+        <SeekBar
+            android:id="@+id/progressBarValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/dark_fg_theme_normal"
+            android:progressDrawable="@drawable/sliderbar_progress_bg" android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SwatchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@color/theme_black">
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/InfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@color/theme_very_dark_grey">
+
+
+        <TableRow
+            android:id="@+id/InfoLayoutRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_bg_theme_normal"
+            android:gravity="center_vertical"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp" >
+
+
+            <Button
+                android:id="@+id/infoButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_fg_theme_normal"
+                android:text="H: 360"
+                android:textColor="@color/theme_mild_white" android:layout_weight="1" android:padding="5dp"/>
+
+
+            <Button
+                android:id="@+id/infoButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S: 100"
+                android:textColor="@color/theme_mild_white" android:background="@drawable/dark_fg_theme_normal" android:layout_weight="1" android:padding="5dp"/>
+
+
+            <Button
+                android:id="@+id/infoButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V: 100"
+                android:textColor="@color/theme_mild_white" android:background="@drawable/dark_fg_theme_normal" android:layout_weight="1" android:padding="5dp"/>
+
+
+            <Button
+                android:id="@+id/colorModelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HSV"
+                android:textColor="@color/theme_mild_white" android:background="@drawable/dark_fg_theme_normal" android:layout_weight="1" android:padding="5dp"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

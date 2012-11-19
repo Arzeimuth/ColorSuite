@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/settingsMenuItem2" 
+        android:orderInCategory="1" 
+        android:titleCondensed="@string/str_shrt_opts" 
+        android:title="@string/str_opts" 
+        android:icon="@+drawable/settings_48" 
+        android:showAsAction="always"></item>
+    <item android:id="@+id/newPaletteMenuItem" android:orderInCategory="0" android:titleCondensed="@string/str_new_palette_shrt" android:title="@string/str_new_palette_shrt" android:icon="@+drawable/newswatch" android:showAsAction="always"></item>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_white">#FFFF</color>
+    <color name="clear">#0FFF</color>
+    <color name="burgundy">#FF993333</color>
+    <color name="theme_dark_grey">#F444</color>
+    <color name="theme_black">#FF000000</color>
+    <color name="theme_aqua">#FF003366</color>
+    <color name="theme_gold">#FFFFCC00</color>
+    <color name="theme_violet">#FF660066</color>
+    <color name="theme_grey">#FF666666</color>
+    <color name="theme_very_dark_grey">#F222</color>
+    <color name="theme_yellow">#FFFFFF00</color>
+    <color name="theme_mild_white">#fccc</color>
+    <color name="theme_light_grey">#FCCC</color>
+    <color name="theme_dark_red">#990000</color>
+    
+</resources>

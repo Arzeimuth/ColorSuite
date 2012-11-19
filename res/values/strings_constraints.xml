@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="noneSelected">None</string>
+    <string name="cstMonochromatic">Monochromatic</string>
+    <string name="cstAnalogous">Analogous</string>
+    
+</resources>

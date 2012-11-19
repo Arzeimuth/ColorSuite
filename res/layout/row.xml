@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+     <LinearLayout
+         android:id="@+id/ListClickZone"
+         android:layout_width="match_parent"
+         android:layout_height="96dp"
+         android:orientation="horizontal"
+         android:paddingBottom="12dp"
+         android:paddingLeft="12dp"
+         android:paddingRight="16dp"
+         android:paddingTop="12dp" android:background="@color/theme_very_dark_grey">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" android:padding="1dp">
+
+             <TextView
+                 android:id="@+id/labelPrimaryColor"
+                 android:layout_width="54dp"
+                 android:layout_height="54dp"
+                 android:background="@color/theme_dark_grey" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:paddingLeft="12dp" >
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" >
+
+                 <TextView
+                     android:id="@+id/labelTitle"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:gravity="center_vertical"
+                     android:text="Winter Breeze"
+                     android:textColor="@color/theme_white" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                 <TextView
+                     android:id="@+id/labelAmount"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentTop="true"
+                     android:text="4"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:textColor="@color/theme_white" />
+
+                 <TextView
+                     android:id="@+id/labelAuthor"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_below="@+id/labelTitle"
+                     android:ellipsize="marquee"
+                     android:singleLine="true"
+                     android:text="Brandon Burton"
+                     android:textColor="@color/theme_white" />
+
+                 <LinearLayout
+                     android:id="@+id/layoutColorPreview"
+                     android:layout_width="match_parent"
+                     android:layout_height="15dp"
+                     android:layout_alignParentBottom="true"
+                     android:layout_alignParentLeft="true" >
+
+                     <TextView
+                         android:id="@+id/labelColorPreview1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:padding="20dp"
+                         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                     <TextView
+                         android:id="@+id/labelColorPreview2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:padding="20dp"
+                         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                     <TextView
+                         android:id="@+id/labelColorPreview3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:padding="20dp"
+                         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                     <TextView
+                         android:id="@+id/labelColorPreview4"
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:padding="20dp"
+                         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                     <TextView
+                         android:id="@+id/labelColorPreview5"
+                         android:layout_width="wrap_content"
+                         android:layout_height="match_parent"
+                         android:padding="20dp"
+                         android:textAppearance="?android:attr/textAppearanceSmall" />
+                 </LinearLayout>
+
+             </RelativeLayout>
+
+         </LinearLayout>
+     </LinearLayout>
+
+ </LinearLayout>

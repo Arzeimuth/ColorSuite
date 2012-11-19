@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="artistic_shader">
+        <item >0xFFFF0000</item>
+        <item >0xFFFF0080</item>
+        <item >0xFFFF00FF</item>
+        <item >0xFF8000FF</item>
+        <item >0xFF0000FF</item>
+        <item >0xFF00FFFF</item>
+        <item >0xFF00FF00</item>
+        <item >0xFF80FF00</item>
+        <item >0xFFFFFF00</item>
+        <item >0xFFFFC000</item>
+        <item >0xFFFF8000</item>
+        <item >0xFFFF4000</item>
+        <item >0xFFFF0000</item>
+    </integer-array>
+    <integer-array name="scientific_shader">
+        <item >0xFFFF0000</item>
+        <item >0xFFFF00FF</item>
+        <item >0xFF0000FF</item>
+        <item >0xFF00FFFF</item>
+        <item >0xFF00FF00</item>
+        <item >0xFFFFFF00</item>
+        <item >0xFFFF0000</item>
+    </integer-array>
+    
+</resources>

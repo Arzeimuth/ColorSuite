@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_white"
+    android:orientation="vertical" android:paddingTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/ContainerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center">
+
+        <LinearLayout
+            android:id="@+id/NameEditLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+
+            <TextView
+                android:id="@+id/PaletteLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Below To Change Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/theme_black" />
+
+            <EditText
+                android:id="@+id/PaletteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/OptionsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/MainMessageLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Palette As"
+                android:textColor="@color/theme_black" />
+
+            <Button
+                android:id="@+id/ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swatch Strip Image" />
+
+            <Button
+                android:id="@+id/EmailButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PreviewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center" android:background="@color/theme_black">
+
+            <TextView
+                android:id="@+id/PreviewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palette Preview"
+                android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/theme_white"/>
+
+            <LinearLayout
+                android:id="@+id/SwatchInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SwatchDetailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
